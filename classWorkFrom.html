@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Information</h2>
+    <table>
+        <tr>
+            <th rowspan="2">Student ID</th>
+            <th rowspan="2">Name</th>
+            <th rowspan="2">Address</th>
+            <th colspan="2">Course Details</th>
+        </tr>
+        <tr>
+            <th>Batch</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>Raul Chaudhari</td>
+            <td>Main Street, Kathmandu</td>
+            <td>Batch A</td>
+            <td>Computing</td>
+        </tr>
+        <tr>
+            <td colspan="4">Additional comment/data</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td>John Miltan</td>
+            <td>123 George Street, Sydney</td>
+            <td>Batch B</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td colspan="4">Additional comment/data</td>
+        </tr>
+    </table>
+</body>
+</html>
